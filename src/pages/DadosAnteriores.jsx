@@ -85,7 +85,7 @@ export default function DadosAnteriores() {
           }}>
             <thead>
               <tr style={{ background: "#0000ff" }}>
-                <th style={th}>Horário</th>
+                <th style={th}>Data</th>
                 <th style={th}>Temperatura</th>
                 <th style={th}>Latitude</th>
                 <th style={th}>Longitude</th>
