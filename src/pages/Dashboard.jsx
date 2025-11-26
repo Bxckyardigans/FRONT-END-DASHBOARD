@@ -47,7 +47,7 @@ export default function Dashboard() {
 
 
           setLocation(endereco);
-          setStatus("ok");
+          setStatus(info.status);
           console.log(info)
           setData((prev) => [...prev.slice(-19), { name: new Date().toLocaleTimeString(), temp: info.temperatura }]);
         })
